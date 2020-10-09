@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+  padding: 0;
+}
+
+.contenitor {
+  width: 1000px;
+  height: 705px;
+  padding: 35px 0;
+  /* background-color: green; */
+  position: relative;
+  left:25%;
+}
+
+.row1 {
+  /* margin:20px; */
+  position: relative;
+  left: 5%;
+  margin-bottom: 30px;
+}
+.row2 {
+  /* margin:20px; */
+  position: relative;
+  left: 5%;
+}
+.device {
+  width: 300px;
+  height: 300px;
+  background-color: lightgrey;
+
+  display: inline-block;
+  /* position: absolute; */
+
+}
+
+.row1 .device:first-child {
+  background-image: url("../img/pd1.jpg");
+
+}
