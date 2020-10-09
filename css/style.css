@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* margin: 0; */
   padding: 0;
 }
 
@@ -8,13 +7,11 @@
   width: 1000px;
   height: 705px;
   padding: 35px 0;
-  /* background-color: green; */
   position: relative;
   left:25%;
 }
 
 .row {
-  /* margin:20px; */
   position: relative;
   left: 5%;
   margin-bottom: 30px;
@@ -22,7 +19,7 @@
 
 .device {
   width: 300px;
-  height: 300px;
+  height: 325px;
   background-color: lightgrey;
   background-size: cover;
   background-position: center;
@@ -50,4 +47,16 @@
 }
 .discount.iphone {
   background-color: green;
+}
+
+.heart {
+  font-size: 30px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+.device:hover > .heart {
+  display: inline;
+  color: red;
 }
